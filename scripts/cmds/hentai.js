@@ -35,9 +35,7 @@ module.exports = {
         resImg.pipe(file);
         file.on("finish", () => {
           const caption = `
-✨ 𝓒𝓾𝓽𝓮 𝓗𝓮𝓷𝓽𝓪𝓲 𝓑𝓪𝓫𝔂 ✨
 
-🌸 𝐀𝐩𝐢 𝐂𝐫𝐞𝐝𝐢𝐭: 𝐂𝐡𝐢𝐭𝐫𝐨𝐧 𝐁𝐡𝐚𝐭𝐭𝐚𝐜𝐡𝐚𝐫𝐣𝐞𝐞
           `;
           message.reply({
             body: caption.trim(),
