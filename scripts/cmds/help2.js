@@ -16,7 +16,7 @@ const CATEGORY_ICONS = {
 
 module.exports = {
   config: {
-    name: "help2",
+    name: "h2",
     version: "2.0",
     author: "Sazid",
     countDown: 5,
