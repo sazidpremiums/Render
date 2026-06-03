@@ -47,18 +47,9 @@ module.exports = {
 
         // Send connected message
         const msg = `
-━━━━━━━━━━━━━━━━━━━━━━━━━━
-${nickname}☔︎ 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟
-━━━━━━━━━━━━━━━━━━━━━━━━━━
-𝗕𝗢𝗧 𝗔𝗗𝗠𝗜𝗡: 𝐌𝐀𝐇𝐀𝐁𝐔𝐁 𝐑𝐀𝐇𝐌𝐀𝐍
-━━━━━━━━━━━━━━━━━━━━━━━━━━
-𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞: https://www.facebook.com/www.xnxx.com140
-━━━━━━━━━━━━━━━━━━━━━━━━━━
-𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣: wa.me/+8801613356376
-━━━━━━━━━━━━━━━━━━━━━━━━━━
-𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠: t.me/Mahabub_x_Rahman
-━━━━━━━━━━━━━━━━━━━━━━━━━━
-        `;
+
+${nickname} Connected Successfully
+        ;
         await api.sendMessage(msg, threadID);
         return; // Stop further execution
       }
