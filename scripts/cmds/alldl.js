@@ -7,7 +7,7 @@ module.exports = {
   config: {
     name: 'auto',
     version: '5.4',
-    author: 'MR᭄﹅ MAHABUB﹅ メꪜ',
+    author: 'Sazid',
     countDown: 5,
     role: 0,
     shortDescription: 'Auto video downloader',
